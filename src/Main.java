@@ -19,13 +19,15 @@ public class Main {
             chatMulticastSocket.joinGroup(group);
 
             String msg = "";
-            System.out.println("Type a message for the server: ");
+            System.out.println("Skriv ett enkelt matte tal(+, -, * eller /): ");
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             msg = br.readLine();
             DatagramPacket data = new DatagramPacket(msg.getBytes(), 0, msg.length(), group, portnumber);
             chatMulticastSocket.send(data);
-
-            chatMulticastSocket.close();
+            DatagramPacket resultData = new DatagramPacket(new byte[1024], 1024);
+            chatMulticastSocket.receive(resultData);
+            String resultat = new String(resultData.getData(), 0, resultData.getLength());
+            System.out.println("Resultat " + resultat);
         }catch (IOException ie){
             ie.printStackTrace();
         }
