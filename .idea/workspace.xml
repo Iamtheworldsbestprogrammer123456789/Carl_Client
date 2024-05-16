@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="858f114f-8415-4908-9254-f742fc2b3f35" name="Changes" comment="Börjar med koden från multicastclient">
+    <list default="true" id="858f114f-8415-4908-9254-f742fc2b3f35" name="Changes" comment="Har inte fått det att fungera. Kolla Carl_Server för en längre förklaring på problemen jag har just nu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -46,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715759450367</updated>
-      <workItem from="1715759451379" duration="3429000" />
+      <workItem from="1715759451379" duration="7621000" />
     </task>
     <task id="LOCAL-00001" summary="Börjar med koden från multicastclient">
       <option name="closed" value="true" />
@@ -56,7 +56,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715759778901</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Har inte fått det att fungera. Kolla Carl_Server för en längre förklaring på problemen jag har just nu.">
+      <option name="closed" value="true" />
+      <created>1715764353494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715764353494</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,6 +72,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Börjar med koden från multicastclient" />
-    <option name="LAST_COMMIT_MESSAGE" value="Börjar med koden från multicastclient" />
+    <MESSAGE value="Har inte fått det att fungera. Kolla Carl_Server för en längre förklaring på problemen jag har just nu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Har inte fått det att fungera. Kolla Carl_Server för en längre förklaring på problemen jag har just nu." />
   </component>
 </project>

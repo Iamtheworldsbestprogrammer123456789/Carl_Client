@@ -17,17 +17,27 @@ public class Main {
             InetAddress group = InetAddress.getByName("224.4.5.6");
 
             chatMulticastSocket.joinGroup(group);
-
+            //Skickar
             String msg = "";
-            System.out.println("Skriv ett enkelt matte tal(+, -, * eller /): ");
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            System.out.println("Skriv ett enkelt matte tal(+, -, * eller /): ");
             msg = br.readLine();
-            DatagramPacket data = new DatagramPacket(msg.getBytes(), 0, msg.length(), group, portnumber);
-            chatMulticastSocket.send(data);
-            DatagramPacket resultData = new DatagramPacket(new byte[1024], 1024);
-            chatMulticastSocket.receive(resultData);
-            String resultat = new String(resultData.getData(), 0, resultData.getLength());
-            System.out.println("Resultat " + resultat);
+            while(true) {
+                DatagramPacket data = new DatagramPacket(msg.getBytes(), 0, msg.length(), group, portnumber);
+                chatMulticastSocket.send(data);
+                //Tar emot datan
+                byte buf[] = new byte[1024];
+                DatagramPacket resultatData = new DatagramPacket(buf, buf.length);
+                chatMulticastSocket.receive(resultatData);
+                String resultat = new String(resultatData.getData(), 0, resultatData.getLength());
+                if (resultat.equals(msg)) {
+                    continue;
+                }
+
+                // Annars skriv ut resultatet
+                System.out.println(resultat);
+                break;
+            }
         }catch (IOException ie){
             ie.printStackTrace();
         }
