@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="858f114f-8415-4908-9254-f742fc2b3f35" name="Changes" comment="Har inte fått det att fungera. Kolla Carl_Server för en längre förklaring på problemen jag har just nu.">
+    <list default="true" id="858f114f-8415-4908-9254-f742fc2b3f35" name="Changes" comment="Nu har jag fått det att fugera. När jag lade till if (resultat.equals(msg)) och den skippa ett varv och sedan kom tillbaka fick jag svaret från servern. Annars plockade klienten upp det den själv skickade.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -12,6 +12,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +38,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -46,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715759450367</updated>
-      <workItem from="1715759451379" duration="7621000" />
+      <workItem from="1715759451379" duration="8543000" />
     </task>
     <task id="LOCAL-00001" summary="Börjar med koden från multicastclient">
       <option name="closed" value="true" />
@@ -64,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715764353494</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Nu har jag fått det att fugera. När jag lade till if (resultat.equals(msg)) och den skippa ett varv och sedan kom tillbaka fick jag svaret från servern. Annars plockade klienten upp det den själv skickade.">
+      <option name="closed" value="true" />
+      <created>1715869836880</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715869836880</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +85,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Börjar med koden från multicastclient" />
     <MESSAGE value="Har inte fått det att fungera. Kolla Carl_Server för en längre förklaring på problemen jag har just nu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Har inte fått det att fungera. Kolla Carl_Server för en längre förklaring på problemen jag har just nu." />
+    <MESSAGE value="Nu har jag fått det att fugera. När jag lade till if (resultat.equals(msg)) och den skippa ett varv och sedan kom tillbaka fick jag svaret från servern. Annars plockade klienten upp det den själv skickade." />
+    <option name="LAST_COMMIT_MESSAGE" value="Nu har jag fått det att fugera. När jag lade till if (resultat.equals(msg)) och den skippa ett varv och sedan kom tillbaka fick jag svaret från servern. Annars plockade klienten upp det den själv skickade." />
   </component>
 </project>
